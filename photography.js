@@ -1,12 +1,3 @@
-const navToggle=document.querySelector(".navbar_toggle")
-const links=document.querySelector(".main_nav")
-const body=document.querySelector("body")
-
-navToggle.addEventListener('click', function(){
-    links.classList.toggle("show_nav")
-    // let transition=links.classList.querySelector("show_nav")
-    body.style.cssText+='backdrop-filter:blur(5px)'
-})
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
