@@ -123,10 +123,18 @@ a{
         margin-right:2%;
     }
 } */
+
+h1{
+    text-align:center;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 1.7;
+    padding-top: 60px;
+}
 .about{
     padding-top:80px;
-    padding-left:10px;
-    padding-right:10px;
+    padding-left:100px;
+    padding-right:100px;
     text-align: center;
     position: relative;
     line-height: 1.6;
@@ -143,6 +151,7 @@ a{
     transform: translateY(0);
     opacity: 1;
 }
+
 /* h1{
     text-align:center;
     font-weight:100;
