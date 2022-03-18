@@ -16,7 +16,7 @@ const swiper = new Swiper('.swiper', {
     },
   
     autoplay: {
-        delay: 8000,
+        delay: 6500,
       },
       effect: 'fade',
   fadeEffect: {
