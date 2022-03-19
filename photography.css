@@ -9,8 +9,11 @@
 a{
     /* color:white !important; */
     text-decoration: none !important;
-
 }
+a:hover {
+    opacity: 0.8;
+  }
+
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ 
         display: none; 
@@ -137,19 +140,28 @@ a{
 }
 .reveal{
     position: relative;
-    transform: translateY(150px);
+    transform: translateX(150px);
     opacity: 0;
     transition: 1s all ease;
 }
 .reveal.active{
-    transform: translateY(0);
+    transform: translateX(0);
     opacity: 1;
 }
 #card-col2{
     margin-top: -600px;
 }
 .card.p-2{
-    box-shadow: 0 6px 10px rgba(0,0,0,.1), 0 0 6px rgba(0,0,0,.08);
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+.card.p-2:hover{
+    transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 
