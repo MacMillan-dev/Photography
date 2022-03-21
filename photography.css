@@ -126,8 +126,6 @@ a:hover {
         margin-right:2%;
     }
 } */
-
-
 .about{
     padding-top:80px;
     padding-left:100px;
@@ -170,6 +168,15 @@ a:hover {
     transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
+.card-img-top{
+    height: 422px
+}
+h2{
+    padding-top:50px;
+    animation: bounceInDown;
+    animation-duration: 3s;
+    animation-delay: 0.9s;
+}
 @media only screen and (max-width: 992px){
     .card-columns{
         display: flex;
@@ -188,7 +195,7 @@ a:hover {
     animation-duration: 3s;
 } */
 .swiper{
-    height: 600px;
+    height: 750px;
     width: 100%;
     padding-top: 0;
 }
